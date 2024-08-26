@@ -1,0 +1,134 @@
+*{
+    font-family:'Roboto',sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+.header,.hero,.info,.testimonial,.cta,footer{
+    display: flex;
+    justify-content: center;
+}
+.header,.hero,footer{
+    background-color:#1f2937;
+    color:#f9faf8;
+}
+.info,.cta{
+    background-color:#f9faf8;
+}
+.testimonial{
+    background-color: #e5e7eb;
+}
+.header-container,.hero-container,.info-container,.testimonial-container,.cta-container{
+    display:flex;
+    width:1100px;
+}
+.header nav{
+    width: 450px;
+    display:flex;
+    justify-content: space-between;
+    margin-left:auto;
+}
+.header nav a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero-container{
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container div{
+    flex: 1;
+}
+.hero-text{
+    color:#f9faf8;   
+}
+.hero-text h1{
+    font-size: 48px;
+}
+.hero-image{
+    background-color: grey;
+    margin-left: auto;
+}
+button{
+    min-width: 90px;
+    height: 25px;
+}
+.hero-button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+.cta-button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 4px;
+    border: #f9faf8 solid 1px;
+    font-weight: bold;
+}
+.info-container{
+    flex-direction: column;
+    align-items: center;
+}
+.info-header{
+    font-size:36px;
+    color:#1f2937;
+}
+.info-figure{
+    display: flex;
+}
+.info-figure figure{
+    width: 100px;
+}
+.info-figure img{
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    border: #3882f6 solid 3px;
+    padding: 2px;
+}
+.info-figure figcaption{
+    font-size: 10px;
+    text-align: center;
+}
+.testimonial{
+    height: 400px;
+}
+.testimonial-container{
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+}
+.quote-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote-sign{
+    size:10px;
+    font-weight: bold;
+    text-align: right;
+}
+.cta{
+    height: 200px;
+    align-items: center;
+}
+.cta-container{
+    box-sizing: border-box;
+    align-items: center;
+    height:120px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding: 50px;
+    border-radius: 4px;
+    width: 70%;
+    justify-content: space-between;
+}
+.cta-header{
+    font-weight: bold;
+}
